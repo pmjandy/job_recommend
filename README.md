@@ -1,18 +1,21 @@
-# 💼AI Job Recommendation System    
+# 💼 AI Job Recommendation System    
 
-## 📌Project Overview
+## 🛜 HuggingFace URL
+https://huggingface.co/spaces/Lilju/job_recommend
+
+## 📌 Project Overview
 본 프로젝트는 사용자의 전공, MBTI, 오행 정보를 기반으로 적합한 직업을 추천하는 AI 기반 직업 추천 시스템입니다.    
 
 커리어넷 openAPI를 통해 직업백과 데이터를 크롤링하였으며, SentenceTransformer를 이용하여 사용자 성향과 직업 정보를 동일한 임베딩 공간에 표현하여 의미적 유사도를 계산합니다. 또한 openAPI GPT를 활용하여 각 추천 직업에 대한 적합한 이유를 자연어로 제공합니다.
 
 
-## 🎯Project Objectives
+## 🎯 Project Objectives
 - 사용자의 개인적인 성향 및 기질을 반영한 개인 맞춤형 직업 추천
 - 전공, 관심사 등 표면적인 정보는 물론 MBTI, 오행을 함꼐 고려한 추천 시스템 구현
 - LLM을 이요한 추천 결과에 대한 이유 함께 제공
 
 
-## 📊Data Collection
+## 📊 Data Collection
 커리어넷 openAPI를 통해 직업백과 데이터 크롤링
 
 ### 수집항목
@@ -29,14 +32,14 @@
 - 업무수행
 
 
-## 🧹Data Preprocessing
+## 🧹 Data Preprocessing
 - '하는일' 칼럼의 'work'키를 추출해 '주요업무'칼럼 생성
 - 관련학과가 'nan'일 경우 '관련없음'으로 변경
 - '적성'과 '흥미'칼럼을 결합해 '흥미적성'칼럼 생성
 - '관련학과'의 항목들 중, 동일한 학과의 다양한 명칭을 하나로 정규화
 
 
-## 🤖Recommendation Model
+## 🤖 Recommendation Model
 ### User information
 - 전공
 - MBTI
@@ -47,7 +50,7 @@
 - jhgan/ko-sbert-multitask
 
 
-## 💡Recommendation Process
+## 💡 Recommendation Process
 User input(전공 + MBTI + 오행)  
 ↓  
 전공 기반 직업 필터링(직업 벡터 생성)  
@@ -61,7 +64,7 @@ top3 직업 추천
 GPT 기반 추천 이유 생성
 
 
-## 🛠️Tech Stack
+## 🛠️ Tech Stack
 ### Language
 - Python
 
@@ -80,7 +83,7 @@ GPT 기반 추천 이유 생성
 ### External API
 - 커리어넷 openAPI
 
-## 📷Demo
+## 📷 Demo
 사용자는 다음의 정보를 입력합니다.
 - 전공
 - MBTI
