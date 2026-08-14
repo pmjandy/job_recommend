@@ -15,7 +15,7 @@ https://huggingface.co/spaces/Lilju/job_recommend
 - LLM을 이요한 추천 결과에 대한 이유 함께 제공
 
 
-## 📊 Data Collection
+## 📊 Dataset
 커리어넷 openAPI를 통해 직업백과 데이터 크롤링
 
 ### 수집항목
@@ -37,6 +37,12 @@ https://huggingface.co/spaces/Lilju/job_recommend
 - 관련학과가 'nan'일 경우 '관련없음'으로 변경
 - '적성'과 '흥미'칼럼을 결합해 '흥미적성'칼럼 생성
 - '관련학과'의 항목들 중, 동일한 학과의 다양한 명칭을 하나로 정규화
+
+최종 데이터 규모
+|columns|rows|
+|---|---|
+|14|545|
+
 
 
 ## 🤖 Recommendation Model
