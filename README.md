@@ -1,6 +1,7 @@
 # 💼 AI Job Recommendation System    
 
 ## 🛜 HuggingFace URL
+링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다!
 https://huggingface.co/spaces/Lilju/job_recommend
 
 ## 📌 Project Overview
