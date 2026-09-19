@@ -12,8 +12,8 @@ https://huggingface.co/spaces/Lilju/job_recommend
 
 ## 🎯 Project Objectives
 - 사용자의 개인적인 성향 및 기질을 반영한 개인 맞춤형 직업 추천
-- 전공, 관심사 등 표면적인 정보는 물론 MBTI, 오행을 함꼐 고려한 추천 시스템 구현
-- LLM을 이요한 추천 결과에 대한 이유 함께 제공
+- 전공, 관심사 등 표면적인 정보는 물론 MBTI, 오행을 함께 고려한 추천 시스템 구현
+- LLM을 이용한 추천 결과에 대한 이유 함께 제공
 
 
 ## 📊 Dataset
