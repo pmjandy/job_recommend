@@ -9,6 +9,12 @@ https://huggingface.co/spaces/Lilju/job_recommend
 
 커리어넷 openAPI를 통해 직업백과 데이터를 크롤링하였으며, SentenceTransformer를 이용하여 사용자 성향과 직업 정보를 동일한 임베딩 공간에 표현하여 의미적 유사도를 계산합니다. 또한 openAPI GPT를 활용하여 각 추천 직업에 대한 적합한 이유를 자연어로 제공합니다.
 
+## 📚 My Role
+- 프로젝트 기획 및 주제 선정
+- 데이터 수집 및 전처리
+- 추천모듈 구현
+- 모델 구현
+
 
 ## 🎯 Project Objectives
 - 사용자의 개인적인 성향 및 기질을 반영한 개인 맞춤형 직업 추천
