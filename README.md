@@ -1,4 +1,5 @@
-# 💼 AI Job Recommendation System    
+# 💼 AI Job Recommendation System
+## 2025.09~2025.12
 
 ## 🛜 HuggingFace URL
 링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다!  
